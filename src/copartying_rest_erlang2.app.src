@@ -1,0 +1,15 @@
+{application, copartying_rest_erlang2, [
+	{description, "Copartying"},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy,
+		jiffy
+	]},
+	{mod, {copartying_rest_erlang2_app, []}},
+	{env, []}
+]}.
